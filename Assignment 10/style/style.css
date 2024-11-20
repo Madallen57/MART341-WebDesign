@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #d2b48c; /* Light brown background */
+    color: #333;
+    text-align: center; /* Center all text */
+ }
+ 
+ header {
+    background-color: #f4a261;
+    color: white;
+    padding: 20px;
+ }
+ 
+ nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2a9d8f;
+    list-style: none;
+    margin: 0 auto;
+ }
+ 
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+ }
+ 
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ /* Section Styles */
+ #ingredients, #steps, .highlight {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: left; /* Ensures inner text alignment */
+ }
+ 
+ #ingredients {
+    background-color: #fefae0;
+    border: 2px solid #dda15e;
+ }
+ 
+ #steps {
+    background-color: #faedcd;
+    border: 2px dashed #b5838d;
+ }
+ 
+ .highlight {
+    background-color: #d4a373;
+    color: white;
+ }
+ 
+ /* Footer */
+ footer {
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+ }
