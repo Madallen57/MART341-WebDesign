@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    background-color: #FAD0D1; /* Light pink background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #A9D2FF; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #F6D02F; /* Yellow */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #F6D02F; /* Yellow hover effect */
+}
+
+/* Dropdown Menu */
+nav ul li.dropdown {
+    position: relative;
+}
+
+nav ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FAD0D1;
+    min-width: 160px;
+    border: 1px solid #A9D2FF;
+    z-index: 1;
+    text-align: left;
+}
+
+nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li.dropdown .dropdown-content li {
+    padding: 10px;
+}
+
+nav ul li.dropdown .dropdown-content li a {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #A9D2FF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #333;
+    margin: 0;
+}
+
+/* Content Styles */
+h2, h3 {
+    color: #F6D02F;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2, h3 {
+        font-size: 22px;
+    }
+}
