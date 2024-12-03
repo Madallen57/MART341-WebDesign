@@ -1,0 +1,21 @@
+body {
+    background-color: #d0f0ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-brown {
+    color: #8B4513; /* Brown text */
+  }
+  
+  img {
+    border: 3px solid #8B4513;
+    border-radius: 8px;
+  }
+  
+  canvas {
+    border: 1px solid #8B4513;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+  
