@@ -1,0 +1,58 @@
+/* Body styles for green background and dashed red border */
+body {
+    background-color: green; /* Green background */
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add padding around the body */
+    border: 5px dashed red; /* Add a dashed red border around the body */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+    font-family: Arial, sans-serif; /* Set font for the entire site */
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Centered content within the main element */
+main {
+    margin: 0 auto; /* Center the element */
+    padding: 20px; /* Add spacing inside the element */
+    width: 80%; /* Set a width for the container */
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+section {
+    border: 3px dashed red; /* Add a dashed red border around sections */
+    padding: 20px; /* Add padding inside sections */
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* Image styles */
+section img {
+    display: block; /* Ensures no inline spacing issues */
+    margin: 20px auto; /* Centers the image */
+    max-width: 80%; /* Scales image to fit within the container */
+    height: auto; /* Maintains aspect ratio */
+}
+/* Style for tip boxes */
+.tip-box {
+    background-color: #ff4d4d; /* Red background */
+    color: #0a0909; /* White text */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left; /* Align the text for readability */
+}
+
+.tip-box p {
+    margin: 0;
+}
